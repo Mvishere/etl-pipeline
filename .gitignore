@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.py_env/
+env/
+py_env/
+
+# Environment variables
+.env 
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Unit test / coverage files
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+.pytest_cache/
+
+# mypy / pylint / bandit
+.mypy_cache/
+.pylint.d/
+.bandit/
+
+# Docker
+*.pid
+*.db
+docker-compose.override.yml
+
+# Package distribution
+dist/
+build/
+*.egg-info/
+
+# CSV/Output files (optional: only if you don't want to track data)
+*.csv
+*.xlsx
+*.tsv
+
+# SQLite or other temp DBs
+*.sqlite
+*.sqlite3
+*.db
